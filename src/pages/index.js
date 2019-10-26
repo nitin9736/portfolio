@@ -10,7 +10,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Hi people</h1>
     <p>My Name is Nitin Nimbalkar</p>
-    <p>Development of this website is still in progress.</p>
+    <p>Development of this website is still in progress. Building this website with gatsby which uses react and node js under the hood</p>
+    <p> Watch this space</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
