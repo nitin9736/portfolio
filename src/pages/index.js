@@ -17,7 +17,7 @@ const IndexPage = () => (
     </div> */}
     <SEO title="Home" />
     <div class="content">
-        <h1>Hi, I am <Link to="/contact/">Nitin Nimbalkar</Link></h1>
+        <h1>Hi, I am <a href="https://twitter.com/nitin0703">Nitin Nimbalkar</a></h1>
         <p>Front-End Engineer with 8+ year's of experience building products for domains like IOT, e-learning, enterprise and now Fin-Tech.</p>
         <p>Worked on many client side technologies like HTML5, CSS3, JS and libraries / frameworks like jQuery, React, Handlebars, Underscore, Angular JS,  Bootstrap, SCSS, Grunt and Webpack for building scalable web applications.</p>
         <p>Currently am working as UI developer in Western Union</p>
