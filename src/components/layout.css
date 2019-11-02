@@ -2,13 +2,18 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background: whitesmoke
+  background: url(../images/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 article,
 aside,
@@ -617,17 +622,12 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
 
 .content {
   padding-top: 10%;
   max-width: 500px;
   margin: auto;
-  background: whitesmoke;
+  color: white;
 }
 
 .footer {
@@ -635,12 +635,25 @@ pre tt:after {
   bottom: 0;
   width: 100%;
   height: 40px;
-  background: #fafafa;
-  border-top: solid 1px #eee;
   text-align: center;
+  color: white;
 }
 
 .footer p {
   margin-top: 30px;
 }
-  
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+
+  .content {
+    padding: 50px
+  }
+}
+

@@ -23,7 +23,7 @@ const IndexPage = () => (
         <p>Currently am working as UI developer in Western Union</p>
 
 
-        <i>**** Building portfolio is still in progress. Building this website with gatsby which uses react and node js under the hood ***</i>
+        <i>**** Building portfolio is still in progress. Building this website with gatsby which uses react under the hood ***</i>
         
     </div>
   </Layout>
